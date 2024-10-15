@@ -1,5 +1,6 @@
 body {
     background: #2c2c2c;
+    overflow-x: hidden;
 }
 
 aside {
@@ -57,8 +58,45 @@ main .features {
     float: left;
     color: #fff;
     margin-top: 100px;
+    margin-left: 50vh;
     text-align: center;
     width: 75%;
+}
+
+main .about_features {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 50vh;
+    text-align: center;
+    width: 75%;
+}
+
+main .about_features p {
+    margin: 20px auto;
+    font-size: 19px;
+}
+
+main .about_features h1 {
+    font-size: 50px;
+}
+
+main .index_features {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 50vh;
+    text-align: center;
+    width: 75%;
+}
+
+main .index_features p {
+    margin: 20px auto;
+    font-size: 19px;
+}
+
+main .index_features h1 {
+    font-size: 50px;
 }
 
 main .features h1 {
@@ -68,6 +106,29 @@ main .features h1 {
 main .features p {
     max-width: 400px;
     margin: 20px auto;
+}
+
+main .detail_features {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 50vh;
+    text-align: center;
+    width: 75%;
+}
+
+main .detail_features p {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+main .detail_features h1 {
+    font-size: 50px;
+}
+
+main .detail_features a {
+    margin-bottom: 10%;
+    margin-left: 5px;
 }
 
 .alert-warning {
