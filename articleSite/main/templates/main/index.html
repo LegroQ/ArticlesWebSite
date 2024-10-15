@@ -5,7 +5,7 @@
 {% block content %}
     <div class="features">
         <h1>{{ title }}</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse incidunt laborum molestias provident quos? Aliquid, at autem deserunt laboriosam omnis quaerat reiciendis repellat repudiandae? Architecto cum in non suscipit vero.</p>
-        <button class="btn btn-warning">КНОПКА для нажатия</button>
+        <p>Сайт "Статейник" предоставляет возможность добавления, редактирования и удаления статей. </p>
+        <a href="{% url 'create_article' %}"><button class="btn btn-info"><i class="fas fa-plus-circle"></i> Добавить статью</button></a>
     </div>
 {% endblock %}
